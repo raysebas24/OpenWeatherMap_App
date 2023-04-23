@@ -17,7 +17,7 @@ def get_weather():
 
     data = {}
     data['q'] = request.args.get('city')    # name of the city for witch we want forecast
-    data['appid'] = '1fe7cb09e4cdef347e66d09abb5a4b9f'    # is your 'OpenWeatherMap' API Key
+    data['appid'] = '???'    # is your 'OpenWeatherMap' API Key
     data['units'] = 'metric'
     print("[data]: ", data)
 
